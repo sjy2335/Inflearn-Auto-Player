@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="scripts/popup.js"></script>
+    <title>인프런 강의 자동 연속 재생</title>
+    <style>
+      body {
+        font-family: "Noto Sans KR", Arial, sans-serif;
+        padding: 15px; /* 상하 좌우 여백 조정 */
+        background-color: #f0f2f5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 8px;
+        color: #333;
+      }
+      .container {
+        font-size: 16px;
+        margin: 10px;
+        margin-top: 0;
+        text-align: center;
+        background-color: #fff;
+        padding: 40px;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        width: 100vh;
+        margin: auto;
+      }
+      h2 {
+        margin-bottom: 18px;
+      }
+      button {
+        background-color: #6200ea;
+        color: #fff;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        border: none;
+        border-radius: 4px;
+        transition: background-color 0.3s;
+        width: 50%;
+        height: 40%;
+        margin-bottom: 8px;
+      }
+      button:hover {
+        background-color: #3700b3;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2>인프런 강의 <br />자동 연속 재생</h2>
+      <button id="toggleButton">Turn On</button>
+    </div>
+  </body>
+</html>

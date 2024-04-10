@@ -1,6 +1,8 @@
-# 인프런 자동 재생
+# Inflearn Auto Player
 
-### 내가 사용하려고 만든 아주 간단한 크롬 확장 프로그램
+인프런 자동 재생 / 연속 재생 크롬 확장 프로그램
+
+### 내가 쓰려고 만든 아주 간단한 크롬 확장 프로그램
 
 ![screenshot](images/screenshot.png)
 

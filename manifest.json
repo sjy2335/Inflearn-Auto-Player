@@ -18,10 +18,7 @@
   "host_permissions": ["https://www.inflearn.com/*"],
   "commands": {
     "_execute_action": {
-      "suggested_key": {
-        "default": "Ctrl+B",
-        "mac": "Command+B"
-      }
+      "suggested_key": {}
     }
   }
 }

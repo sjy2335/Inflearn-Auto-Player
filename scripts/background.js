@@ -1,4 +1,4 @@
-const lecturePage = "https://www.inflearn.com/course/lecture";
+const lecturePage = "https://www.inflearn.com/courses/lecture";
 
 chrome.runtime.onInstalled.addListener(() => {
   chrome.action.setBadgeText({

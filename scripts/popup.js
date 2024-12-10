@@ -1,4 +1,4 @@
-const lecturePage = "https://www.inflearn.com/course/lecture";
+const lecturePage = "https://www.inflearn.com/courses/lecture";
 
 document.addEventListener("DOMContentLoaded", function () {
   let toggleButton = document.getElementById("toggleButton");

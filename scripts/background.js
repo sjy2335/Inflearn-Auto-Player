@@ -53,38 +53,33 @@ function callButtonScript() {
 }
 
 function pageContextScript() {
-  let canObserve = true; // 강의 넘김 동작을 허용하는지 여부를 추적하는 전역 변수
+  let canClick = true;
 
-  const nextLessonFlag = () => {
-    return (
-      document.querySelector(
-        "#NextUnitModal-body > div.mantine-Group-root.mantine-qokdfp > button.mantine-UnstyledButton-root.mantine-Button-root.css-x644ap.mantine-3353zk"
-      ) !== null
+  const findNextLectureButton = () => {
+    const buttons = document.querySelectorAll("#video-end-overlay button");
+    return Array.from(buttons).find((btn) =>
+      btn.textContent.includes("다음 수업")
     );
   };
 
-  const observer = new MutationObserver(function (mutationsList, observer) {
-    if (nextLessonFlag() && canObserve) {
-      // canObserve가 true일 때만 다음 강의로 넘어감
-      clickNextLessonButton();
-      observer.disconnect(); // 현재의 observer를 중지
-      canObserve = false; // 다음 동작을 방지
+  const observer = new MutationObserver(() => {
+    const overlay = document.querySelector("#video-end-overlay");
+    const nextButton = findNextLectureButton();
+
+    if (overlay && overlay.style.opacity === "1" && canClick && nextButton) {
+      console.log("다음 수업 버튼 클릭");
+      nextButton.click();
+
+      canClick = false;
       setTimeout(() => {
-        canObserve = true; // 3초 후에 다시 강의 넘김 동작을 허용
-        observer.observe(document, { childList: true, subtree: true }); // observer를 다시 시작
-      }, 3000); // 3초 대기
+        canClick = true;
+      }, 3000);
     }
   });
 
-  observer.observe(document, { childList: true, subtree: true });
-
-  function clickNextLessonButton() {
-    console.log("next lecture button clicked.");
-    const nextLessonButton = document.querySelector(
-      "#NextUnitModal-body > div.mantine-Group-root.mantine-qokdfp > button.mantine-UnstyledButton-root.mantine-Button-root.css-x644ap.mantine-3353zk"
-    );
-    if (nextLessonButton) {
-      nextLessonButton.click();
-    }
-  }
+  observer.observe(document.body, {
+    attributes: true,
+    childList: true,
+    subtree: true,
+  });
 }

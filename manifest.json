@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "inflearn-autoplayer",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Plays videos in a row (continuously) for Korean dev lecture site \"Inflearn\".Icon created by Smashicons - Flaticon",
   "icons": {
     "128": "images/128.png"

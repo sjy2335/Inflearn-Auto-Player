@@ -13,3 +13,6 @@ MutationObserver로 다음 팝업을 감지해 클릭해줍니다. 확장 프로
 제가 사용하고 싶어서 빠르게 만들어 보았는데, 제대로 작동하지 않는다거나 문제점이 보이면 알려주시면 감사하겠습니다. 크롬 확장 프로그램 스토어에 공개되어 있습니다.
 
 https://chromewebstore.google.com/detail/inflearn-autoplayer/omadkhceoicbnddndnanjghjfjhnajok
+
+- v.1.0.1. 바뀐 주소 반영
+- v.1.0.2. 바뀐 페이지 구조 반영

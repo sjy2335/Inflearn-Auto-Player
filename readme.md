@@ -15,4 +15,5 @@ MutationObserver로 다음 팝업을 감지해 클릭해줍니다. 확장 프로
 https://chromewebstore.google.com/detail/inflearn-autoplayer/omadkhceoicbnddndnanjghjfjhnajok
 
 - v.1.0.1. 바뀐 주소 반영
-- v.1.0.2. 바뀐 페이지 구조 반영
+- [v.1.0.2. 바뀐 페이지 구조 반영](https://chromewebstore.google.com/detail/inflearn-autoplayer/omadkhceoicbnddndnanjghjfjhnajok?hl=ko)
+- [v.1.0.3. 바뀐 페이지 구조 반영](https://chromewebstore.google.com/detail/inflearn-autoplayer/cmokpbplkmiledpgphjcdlnkkknmanof?hl=ko)

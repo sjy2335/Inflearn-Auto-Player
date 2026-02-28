@@ -16,4 +16,8 @@ https://chromewebstore.google.com/detail/inflearn-autoplayer/omadkhceoicbnddndna
 
 - v.1.0.1. 바뀐 주소 반영
 - [v.1.0.2. 바뀐 페이지 구조 반영 1차](https://chromewebstore.google.com/detail/inflearn-autoplayer/omadkhceoicbnddndnanjghjfjhnajok?hl=ko)
+  <details>
+    <summary>(게시 취소됨)</summary>
+    <img width="1362" height="258" alt="image" src="https://github.com/user-attachments/assets/98f1fc7c-3742-456e-8b9b-41d84e63c902" />
+  </details>
 - [v.1.0.3. 바뀐 페이지 구조 반영 2차](https://chromewebstore.google.com/detail/inflearn-autoplayer/cmokpbplkmiledpgphjcdlnkkknmanof?hl=ko)
